@@ -1,16 +1,13 @@
-# study_flutter
+### 一个学习 flutter 的仓库
 
-A new Flutter project.
+```bash
+# 第一步，先启动模拟器
 
-## Getting Started
+open -a Simulator
+```
 
-This project is a starting point for a Flutter application.
+```bash
+# 第二步，运行项目（默认如果只有一个模拟器设备，则会直接以该设备运行，否则需要指定设备 flutter run -d <device_id>）
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter run
+```
