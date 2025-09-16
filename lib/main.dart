@@ -15,9 +15,10 @@ void main() {
         body: Center(
           child: Image(
             // 网络图片
-            image: NetworkImage(
-              'https://www.tsinghua.edu.cn/__local/6/7A/85/C3D4D024D11EC28F135802EEC9C_38F140F1_46DA0F.jpg',
-            ),
+            // image: NetworkImage(
+            //   'https://www.tsinghua.edu.cn/__local/6/7A/85/C3D4D024D11EC28F135802EEC9C_38F140F1_46DA0F.jpg',
+            // ),
+            image: AssetImage('images/diamond.jpg'),
           ),
         ),
       ),
